@@ -25,11 +25,11 @@ public class JSONTransverse {
 		RequestSpecification reqspec = RestAssured.given();
 		
 		Response response = reqspec.get();
-		/*
-		 * String category = response.jsonPath().get("result.category");
-		 * System.out.println(category);
-		 */
-		/* response.prettyPrint(); */
+		
+		  String category = response.jsonPath().get("result.category");
+		  System.out.println(category);
+		 
+		 response.prettyPrint(); 
 
 		List<String> category = response.jsonPath().getList("result.category"); // Its a optional one 
 		
