@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5254" started-at="2024-01-19T15:46:29 IST" finished-at="2024-01-19T15:46:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5254" started-at="2024-01-19T15:46:29 IST" finished-at="2024-01-19T15:46:34 IST">
+      <class name="httpmethodsdemo.GetDemo">
+        <test-method status="PASS" signature="getIncident()[pri:0, instance:httpmethodsdemo.GetDemo@9a7504c]" name="getIncident" duration-ms="5222" started-at="2024-01-19T15:46:29 IST" finished-at="2024-01-19T15:46:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIncident -->
+      </class> <!-- httpmethodsdemo.GetDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
